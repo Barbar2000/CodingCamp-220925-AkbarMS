@@ -34,7 +34,7 @@ function validateForm() {
         alert("Please fill in all fields.");
     } else {
         /// If all fields are filled, show a success message
-        alert(`Thanks, ${name}! Form submitted successfully!`);
+        alert(`Thanks, ${name} message submitted successfully!. Your Message is ${message}`);
     }
 }
 
