@@ -451,12 +451,12 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding: 40px 0;
+  padding: 10px;
   position: relative;
 }
 
 .footer .copyright p {
-  margin-bottom: 0;
+  margin-bottom: 2px;
 }
 
 .footer .social-links {
@@ -464,11 +464,10 @@ h6 {
 }
 
 .footer .social-links a {
-  display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 1px;
+  height: 1px;
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 30%);
   font-size: 16px;
